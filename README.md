@@ -21,12 +21,13 @@ Dataset: https://archive.ics.uci.edu/ml/datasets/Student+Performance
 ```
 
 ## Dataset
-Student Performance Data Set includes 33 attribute. The first problem I encountered is labeling. I used LabelEncoder to convert labels to numerical values. After that I changed delimator because of the some issues about data set import process
+Student Performance Data Set includes 33 attribute. The first problem I encountered is labeling. I used LabelEncoder to convert labels to numerical values. After that I changed delimator because of the some issues about dataset import process
 ![alt text](./plots/dataset.png)
+![alt text](./plots/age-avg_g_bar.png)
 
 
 ## Model
-I used basic deep learning model to predict student grades from data set
+I used basic ANN to predict student grades from dataset. Structure of the my dataset ![alt text](./plots/model_structure.png)
 
 
 ## Authors

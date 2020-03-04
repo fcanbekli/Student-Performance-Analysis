@@ -27,7 +27,7 @@ Student Performance Data Set includes 33 attribute. The first problem I encounte
 
 
 ## Model
-I used basic ANN to predict student grades from dataset. Structure of the my dataset ![alt text](./plots/model_structure.png)
+I used basic ANN to predict student grades from dataset. Structure of the my model ![alt text](./plots/model_structure.png)
 
 
 ## Authors

@@ -20,9 +20,9 @@ Pandas
 Dataset: https://archive.ics.uci.edu/ml/datasets/Student+Performance
 ```
 
-## Data Set
+## Dataset
 Student Performance Data Set includes 33 attribute. The first problem I encountered is labeling. I used LabelEncoder to convert labels to numerical values. After that I changed delimator because of the some issues about data set import process
-
+![alt text](./plots/dataset.png)
 
 
 ## Model

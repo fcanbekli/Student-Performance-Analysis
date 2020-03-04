@@ -45,10 +45,10 @@ model.add(tf.keras.layers.Dense(1))
 model.compile(optimizer='adam',
               loss='mean_squared_error',
               metrics=['mae'])
-model.fit(xTrain, yTrain, epochs=150)
+model.fit(xTrain, yTrain, epochs=200)
 print("Evaluate")
 print(model.evaluate(xTest,  yTest, verbose=2))
 print("Prediction of the sample 100 from test set")
-print(model.predict(xTest.iloc[:])[100])
+print(model.predict(xTest.iloc[:])[22])
 print("yTest")
-print(yTest.iloc[100])
+print(yTest.iloc[22])
